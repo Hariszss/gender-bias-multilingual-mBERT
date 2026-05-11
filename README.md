@@ -61,9 +61,9 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 ## Project Structure
 
 ```
-├── Gender.ipynb                # Main analysis notebook
-├── Zisis_Presentation.pdf      # Project presentation slides
-├── requirements.txt            # Python dependencies
+├── multilingual_gender_bias_analysis.ipynb  # Main analysis notebook
+├── Zisis_Presentation.pdf                   # Project presentation slides
+├── requirements.txt                         # Python dependencies
 └── README.md
 ```
 
@@ -78,7 +78,7 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 pip install -r requirements.txt
 
 # Open the notebook
-jupyter notebook Gender.ipynb
+jupyter notebook multilingual_gender_bias_analysis.ipynb
 ```
 
 The notebook is also fully runnable on **Google Colab** — open it and run all cells. All datasets load automatically from HuggingFace.
