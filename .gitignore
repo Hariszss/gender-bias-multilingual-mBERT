@@ -1,0 +1,15 @@
+# Data files (too large for GitHub)
+*.zip
+TEAM_PACKAGE/
+*.arrow
+*.jsonl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Personal documents
+*360DegreesFeedback*
+
+# OS
+.DS_Store
+Thumbs.db
