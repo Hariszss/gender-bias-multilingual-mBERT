@@ -5,7 +5,6 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-red?logo=pytorch&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Course:** INFOMTLAC — Utrecht University, 2025  
 **Author:** Charalampos Zisis
 
 ---
@@ -62,7 +61,7 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 ## Project Structure
 
 ```
-├── Zisis.ipynb               # Main analysis notebook
+├── Gender.ipynb               # Main analysis notebook
 ├── Zisis_Presentation.pdf    # Project presentation slides
 └── README.md
 ```
@@ -78,7 +77,7 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 pip install transformers datasets torch pandas numpy matplotlib seaborn scipy
 
 # Open the notebook
-jupyter notebook Zisis.ipynb
+jupyter notebook Gender.ipynb
 ```
 
 The notebook is also fully runnable on **Google Colab** — upload `INFOMTLAC_Team_Package.zip` to `/content/` and run all cells.
