@@ -61,12 +61,13 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 ## Project Structure
 
 ```
-├── multilingual_gender_bias_analysis.ipynb               # Main analysis notebook
-├── Zisis_Presentation.pdf    # Project presentation slides
+├── Gender.ipynb                # Main analysis notebook
+├── Zisis_Presentation.pdf      # Project presentation slides
+├── requirements.txt            # Python dependencies
 └── README.md
 ```
 
-> **Note:** Raw datasets (WinoBias, mC4 samples) are not included due to size. See the notebook for data loading instructions.
+> **Note:** Raw datasets (WinoBias, mC4) are streamed automatically from HuggingFace — no local files needed.
 
 ---
 
@@ -74,13 +75,13 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 
 ```bash
 # Install dependencies
-pip install transformers datasets torch pandas numpy matplotlib seaborn scipy
+pip install -r requirements.txt
 
 # Open the notebook
-jupyter notebook multilingual_gender_bias_analysis.ipynb
+jupyter notebook Gender.ipynb
 ```
 
-The notebook is also fully runnable on **Google Colab** — upload `INFOMTLAC_Team_Package.zip` to `/content/` and run all cells.
+The notebook is also fully runnable on **Google Colab** — open it and run all cells. All datasets load automatically from HuggingFace.
 
 ---
 
@@ -88,3 +89,15 @@ The notebook is also fully runnable on **Google Colab** — upload `INFOMTLAC_Te
 
 `Python` `PyTorch` `HuggingFace Transformers` `Pandas` `NumPy` `Matplotlib` `Seaborn` `SciPy`  
 Datasets: WinoBias · mC4 (multilingual)
+
+---
+
+## Citation
+
+If you use or reference this work, please cite:
+
+```
+Zisis, C. (2025). Gender Bias in Multilingual Transformer Models.
+Utrecht University — INFOMTLAC.
+GitHub: https://github.com/Hariszss/gender-bias-multilingual-mBERT
+```
