@@ -61,7 +61,7 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 ## Project Structure
 
 ```
-├── Gender.ipynb               # Main analysis notebook
+├── multilingual_gender_bias_analysis.ipynb               # Main analysis notebook
 ├── Zisis_Presentation.pdf    # Project presentation slides
 └── README.md
 ```
@@ -77,7 +77,7 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 pip install transformers datasets torch pandas numpy matplotlib seaborn scipy
 
 # Open the notebook
-jupyter notebook Gender.ipynb
+jupyter notebook multilingual_gender_bias_analysis.ipynb
 ```
 
 The notebook is also fully runnable on **Google Colab** — upload `INFOMTLAC_Team_Package.zip` to `/content/` and run all cells.
