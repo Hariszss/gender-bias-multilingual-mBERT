@@ -56,6 +56,15 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 - **Dutch** (non-grammatical) shows nearly the same bias as **French** (grammatical) — grammatical gender alone does not drive mBERT male bias.
 - **German** is a notable outlier: high model bias but low mC4 male co-occurrence ratio, suggesting morphological gender marking or cross-lingual training dynamics as confounds rather than surface corpus patterns.
 
+### Avg Signed Bias by Language
+![Bias by language](figures/bias_by_language.png)
+
+### Signed Bias per Occupation × Language
+![Bias heatmap](figures/bias_heatmap.png)
+
+### mC4 Corpus vs mBERT Bias (SQ3)
+![Corpus vs model](figures/corpus_vs_model.png)
+
 ---
 
 ## Project Structure
@@ -64,6 +73,7 @@ This project investigates **gender bias in mBERT** (`bert-base-multilingual-case
 ├── multilingual_gender_bias_analysis.ipynb  # Main analysis notebook
 ├── Zisis_Presentation.pdf                   # Project presentation slides
 ├── requirements.txt                         # Python dependencies
+├── figures/                                 # Key result plots
 └── README.md
 ```
 
